@@ -7,12 +7,13 @@
     // $ferrari->color = "Red";
     
     $ferrari = new Car("Ferrari", "Red"); // color vem como Red
-
-    
-
     //echo $ferrari->getEngine();
+    //echo $ferrari->color;
 
-    echo $ferrari->color;
+    $moto  = new Motorcycle("Honfa", "Blue");
+    echo $moto->engine = 100;
+    echo "<br>";
+    echo $moto->color; // vem maiuscula
     
 
 
