@@ -1,6 +1,8 @@
 <?php
-    require_once "Car.php";
 
-    $ferrari = new Car;
-    $mustang = new Car;
-     
+    class Car 
+    {
+        public $brand;
+        public $color;
+        public $engine;
+    }
