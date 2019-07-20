@@ -12,5 +12,7 @@
     $mustang->engine = 200;
      
     //echo $ferrari->brand;
-    var_dump($ferrari);
-    var_dump($mustang);
+    // var_dump($ferrari);
+    // var_dump($mustang);
+
+    echo $mustang->getEngine();

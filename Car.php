@@ -2,7 +2,12 @@
 
     class Car 
     {
-        public $brand;
+        public $brand;      //atributos
         public $color;
         public $engine;
+
+        public function getEngine()
+        {
+            return $this->engine. " horsepower"; 
+        }
     }
