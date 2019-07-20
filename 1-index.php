@@ -13,7 +13,7 @@
     $moto  = new Motorcycle("Honfa", "Blue");
     echo $moto->engine = 100;
     echo "<br>";
-    echo $moto->color; // vem maiuscula
+    echo $moto->color; // vem tudo maiuscula
     
 
 
