@@ -7,6 +7,8 @@
         public function __construct($brand = null, $color = null)// setando valor padrão para estes parametros
         {
             parent::__construct($brand,strtoupper($color));
+
+            echo $this->color;
         }
     }
     

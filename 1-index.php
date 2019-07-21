@@ -16,11 +16,14 @@
     // echo "<br>";
      //echo $moto->color; // vem tudo maiuscula
 
-     $mustang = new Car("Mustang", "Yellow"); // color vem como Red
-     $mustang->engine = 300;
-     $mustang->setDoors(4);
-    echo $mustang->getDoors();
+    //  $mustang = new Car("Mustang", "Yellow"); // color vem como Red
+    //  $mustang->engine = 300;
+    //  $mustang->setDoors(4);
+    // echo $mustang->getDoors();
+    $moto = new Motorcycle('Honda','Blue');
+    // echo $moto->$color;
 
+    //echo $moto->color; // erro , pois é protegida
      
     
 

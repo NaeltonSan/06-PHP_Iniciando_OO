@@ -3,7 +3,7 @@
     class Vehicle 
     {
         public $brand;      //atributos
-        public $color;
+        protected $color;  // protected , vai permitir acesso dentro da classe pai e tb classe filho
         public $engine;
 
         public function __construct($brand = null, $color = null)// setando valor padrão para estes parametros

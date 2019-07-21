@@ -14,5 +14,6 @@
        public function getDoors()  // métodos , alterar o valor
        {
           return $this->doors;
+         
        }
     }
