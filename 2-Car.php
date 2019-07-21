@@ -16,4 +16,9 @@
           return $this->doors;
          
        }
+
+       public function getBrand()
+       {
+          return $this->brand;
+       }
     }

@@ -10,5 +10,10 @@
 
             echo $this->color;
         }
+
+        public function getBrand()
+       {
+          return $this->brand;
+       }
     }
     

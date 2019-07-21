@@ -1,6 +1,6 @@
 <?php
 
-    class Vehicle 
+    abstract class Vehicle  // abstract é ter um molde para as outras classes
     {
         public $brand;      //atributos
         protected $color;  // protected , vai permitir acesso dentro da classe pai e tb classe filho
@@ -17,6 +17,8 @@
         {
             return "{$this->engine} {$type}"; 
         }
+
+        abstract public function getBrand();
     }
     
     
